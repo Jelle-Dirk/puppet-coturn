@@ -151,7 +151,7 @@
 #   Option to set alternative server for TLS & DTLS services
 # @param stun_only
 #   suppress TURN functionality
-# @param non_software_attribute
+# @param no_software_attribute
 #   hide software version
 # @param no_stun
 #   suppress STUN functionality
@@ -291,7 +291,7 @@ class coturn (
   Array[String[1]]                       $alternate_server                  = [],
   Array[String[1]]                       $tls_alternate_server              = [],
   Boolean                                $stun_only                         = false,
-  Boolean                                $non_software_attribute            = false,
+  Boolean                                $no_software_attribute             = false,
   Boolean                                $no_stun                           = false,
   Optional[String[1]]                    $rest_api_separator                = undef,
   Boolean                                $allow_loopback_peers              = false,
