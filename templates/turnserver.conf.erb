@@ -205,11 +205,11 @@ verbose
 <% else -%>
 #verbose
 <% end -%>
-	
+
 # Uncomment to run TURN server in 'extra' verbose mode.
 # This mode is very annoying and produces lots of output.
 # Not recommended under any normal circumstances.
-#	
+#
 <% if @extra_verbose -%>
 Verbose
 <% else -%>
@@ -911,10 +911,10 @@ keep-address-family
 
 # TURN server allocates address family according TURN client requested address family.
 # If address family not requested explicitly by the client, then it falls back to this default.
-# The standard RFC explicitly define that this default must be IPv4, 
-# so use other option values with care! 
-# Possible values: "ipv4" or "ipv6" or "keep" 
-# "keep" sets the allocation default address family according to 
+# The standard RFC explicitly define that this default must be IPv4,
+# so use other option values with care!
+# Possible values: "ipv4" or "ipv6" or "keep"
+# "keep" sets the allocation default address family according to
 # the TURN client allocation request connection address family.
 #allocation-default-address-family="ipv4"
 <% if @allocation_default_address_family -%>
