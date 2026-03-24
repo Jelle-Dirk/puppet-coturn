@@ -92,7 +92,7 @@ The following parameters are available in the `coturn` class:
 * [`alternate_server`](#-coturn--alternate_server)
 * [`tls_alternate_server`](#-coturn--tls_alternate_server)
 * [`stun_only`](#-coturn--stun_only)
-* [`non_software_attribute`](#-coturn--non_software_attribute)
+* [`no_software_attribute`](#-coturn--no_software_attribute)
 * [`no_stun`](#-coturn--no_stun)
 * [`rest_api_separator`](#-coturn--rest_api_separator)
 * [`allow_loopback_peers`](#-coturn--allow_loopback_peers)
@@ -712,7 +712,7 @@ suppress TURN functionality
 
 Default value: `false`
 
-##### <a name="-coturn--non_software_attribute"></a>`non_software_attribute`
+##### <a name="-coturn--no_software_attribute"></a>`no_software_attribute`
 
 Data type: `Boolean`
 
