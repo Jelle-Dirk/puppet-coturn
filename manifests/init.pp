@@ -45,7 +45,7 @@
 # @param verbose
 #   if true, enables verbose mode
 # @param extra_verbose
-#   if true, enables Verbose mode (extra verbose) 
+#   if true, enables Verbose mode (extra verbose)
 # @param fingerprint
 #   use fingerprints in the TURN messages
 # @param lt_cred_mech
@@ -214,7 +214,7 @@
 # @param no_stun_backwards_compatibility
 #   Disable handling old STUN Binding requests
 # @param response_origin_only_with_rfc5780
-#   Only send RESPONSE-ORIGIN attribute in binding response 
+#   Only send RESPONSE-ORIGIN attribute in binding response
 #   if RFC5780 is enabled
 #
 class coturn (
